@@ -10,19 +10,20 @@ int main(void)
 {
 
 	int i = 0;
-	
 	unsigned long int sum1, sum2, sum;
 
-	sum1=0;
-	sum2=0;
-	sum=0;
-	
-	while(i <= 1024){
-		if ((i%3) == 0){
+	sum1 = 0;
+	sum2 = 0;
+	sum = 0;
+	while( i <= 1024 ) 
+	{ 
+		if ( (i%3) == 0)
+		{
 			sum1 = sum1 + i;
 			i++;
 		}
-		else if((i%5) == 0){
+		else if( (i%5) == 0)
+		{
 			sum2 = sum2 + i;
 			i++;
 		}
