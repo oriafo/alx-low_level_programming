@@ -1,15 +1,15 @@
 #include "main.h"
-#include <stdlib.h>
+#include <stdio.h>
 
 /**
  *  * main - assigns a random number to int n everytime
  *   * it executes, and prints it
  *    * Return: Always 0 (Success)
 */
-
-int positive_or_negative(int n) 
+int positive_or_negative(int n)
 {
-	
+	int n;
+
 	if (n > 0)
 		printf("%d is positive\n", n);
 	else if (n == 0)
