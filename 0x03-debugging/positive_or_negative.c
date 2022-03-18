@@ -7,10 +7,12 @@
  *   * it executes, and prints it
  *    * Return: Always 0 (Success)
 */
-int positive_or_negative(int n)
+int positive_or_negative(int i)
 {
-	
+	int n;
 
+	
+	n = i;
 	if (n > 0)
 		printf("%d is positive\n", n);
 	else if (n == 0)
