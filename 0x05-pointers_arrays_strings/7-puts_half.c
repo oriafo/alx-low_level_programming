@@ -2,7 +2,7 @@
 
 /**
  * puts_half - print second half of a string
- * @str: char array string type
+ * @str: char array string typee
  * Description: If odd number of chars, print (length - 1) / 2
  */
 
